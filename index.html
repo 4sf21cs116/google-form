@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body><div id="box">
+    <h1>Google Form</h1>
+</div>
+    <form id="form">
+        <label for="username" >  Name</label>
+        <input type="text" name="username" autocomplete="off" placeholder="enter your name"id="username">
+        <span id="name-error"></span>
+        <label for="rollno"> Roll no</label>
+        <input type="number" name="rollno" autocomplete="off" min="1" placeholder="enter your roll no" id="rollno">
+        <span id="roll-error"></span>
+        <label for="phoneno"> Phone Number</label>
+        <input type="number" name="phoneno" autocomplete="off" placeholder="enter your phone number" id="phoneno">
+        <span id="phone-error"></span>
+        <label for="email"> Email</label>
+        <input type="email" name="email" autocomplete="off" placeholder="enter your email" id="email">
+        <span id="email-error"></span>
+        <label for="name">Gender</label>
+        <div id="radio">
+        <label for="male"> male</label>
+        <input type="radio" name="gender" id="male" value="male">
+        <label for="female"> female</label>
+        <input type="radio" name="gender"id="female" value="female">
+    </div>
+    <span id="radio-error"></span>
+        <label for="socialmedia"> Social Media profile</label>
+        <input type="url" name="socialmedia" autocomplete="off" placeholder="enter your social media profile link (if any)" id="socialmedia">
+        <span id="url-error"></span>
+        <button type="submit" onclick="">submit</button>
+       
+    </form>
+    <script src="./app.js"></script>
+</body>
+</html>
