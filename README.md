@@ -1,23 +1,41 @@
-# google-form
-🧮 Google Forms Clone – Basic Arithmetic Form
-A simple, static Google Forms-style clone built with HTML, CSS, and JavaScript. This project emphasizes form input handling, arithmetic operations, and error validations, designed for beginners practicing frontend fundamentals.
+# 🧮 Google Forms Clone – Basic Arithmetic Form
 
-✅ Key Features
-📋 Multiple input types (text, radio, dropdowns)
+This is a simple, static Google Forms-style clone built using **HTML**, **CSS**, and **JavaScript**. It replicates a basic form with arithmetic-based questions, form validations, and clean UI — ideal for practicing frontend fundamentals.
 
-➕ Arithmetic-based questions (addition, subtraction, multiplication, division)
+---
 
-⚠️ Error validation:
+## ✅ Features
 
-Empty fields
+### 📋 Form Elements
+- Includes multiple input types: text, radio buttons, and dropdowns
+- Arithmetic-based questions (Addition, Subtraction, Multiplication, Division)
 
-Non-numeric input detection
+### ⚠️ Validation & Feedback
+- Empty field detection
+- Non-numeric input validation
+- Real-time feedback for correct and incorrect answers
 
-🎯 Real-time feedback for correct/incorrect answers
+### 🎨 Design
+- Clean and simple UI (non-responsive)
+- Lightweight CSS for structure and layout
+- Designed for beginners to understand form logic
 
-🔘 Clean and simple UI (non-responsive layout)
+---
 
-🎨 Lightweight CSS for layout and structure
+## 🧪 Functional Highlights
+
+- No backend or database integration – fully static project
+- JavaScript handles form logic and validation
+- Highlights fields with errors before submission
+
+---
+
 ## 📸 Preview
 
-![Preview](./image.png)
+| Form UI Preview |
+|------------------|
+| ![Preview](./image.png) |
+
+---
+
+
