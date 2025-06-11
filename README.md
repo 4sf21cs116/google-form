@@ -1,5 +1,4 @@
-# 🧮 Google Forms Clone – Basic Arithmetic Form
-
+# 🧮 google-form
 This is a simple, static Google Forms-style clone built using **HTML**, **CSS**, and **JavaScript**. It replicates a basic form with arithmetic-based questions, form validations, and clean UI — ideal for practicing frontend fundamentals.
 
 ---
