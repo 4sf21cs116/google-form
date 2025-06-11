@@ -23,8 +23,6 @@ This is a simple, static Google Forms-style clone built using **HTML**, **CSS**,
 ---
 
 ## 🧪 Functional Highlights
-
-- No backend or database integration – fully static project
 - JavaScript handles form logic and validation
 - Highlights fields with errors before submission
 
